@@ -24,7 +24,6 @@ Front & Board Renders as well as Potato Pi Illustrations
 
 BOM (you can find this as a separate file too)
 | Designator                                    | Footprint        | Qty | Value / Part | Link                                                                                                     | Cost |
-| --------------------------------------------- | ---------------- | --- | ------------ | -------------------------------------------------------------------------------------------------------- | ---- |
 | C1, C12                                       | 402              | 2   | 1µF          | [https://www.lcsc.com/product-detail/C29266.html](https://www.lcsc.com/product-detail/C29266.html)       | 0.26 |
 | C10, C11, C17, C2, C3, C4, C5, C6, C7, C8, C9 | 402              | 11  | 0.1µF        | [https://www.lcsc.com/product-detail/C1525.html](https://www.lcsc.com/product-detail/C1525.html)         | 0.13 |
 | C13, C14                                      | 603              | 2   | 10µF         | [https://www.lcsc.com/product-detail/C19702.html](https://www.lcsc.com/product-detail/C19702.html)       | 0.40 |
@@ -43,7 +42,6 @@ BOM (you can find this as a separate file too)
 | Y1                                            | Crystal 3225     | 1   | 12 MHz       | [https://www.lcsc.com/product-detail/C9002.html](https://www.lcsc.com/product-detail/C9002.html)         | 0.73 |
 Tools 
 | Item                   | Cost |
-| ---------------------- | ---- |
 | JLCPCB PCB Fabrication | 2.10 |
 | T18-D24 Solder Tip     | 6.99 |
 | Solder Wick            | 4.99 |
