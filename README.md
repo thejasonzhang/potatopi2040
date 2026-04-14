@@ -1,11 +1,7 @@
 Gallery
 <img width="586" height="772" alt="image" src="https://github.com/user-attachments/assets/ea4e76bc-e834-4063-8fc2-9ede8b59766c" />
 
-<img width="489" height="708" alt="image" src="https://github.com/user-attachments/assets/a2b46185-5bc5-42ce-8dc4-d08476cf1e88" />
-
-
 <img width="464" height="666" alt="image" src="https://github.com/user-attachments/assets/c4990acd-9b42-49f6-830d-d48652d51804" />
-
 
 <img width="598" height="694" alt="image" src="https://github.com/user-attachments/assets/1e6d750d-1346-4893-b1ca-54df59766947" />
 
