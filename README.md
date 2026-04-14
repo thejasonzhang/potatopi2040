@@ -41,12 +41,11 @@ Bill of Materials (BOM)
 | IC           | U2                    | SOT-23                      | 1       | MCP1700-3302     | [https://www.lcsc.com/product-detail/C39051.html](https://www.lcsc.com/product-detail/C39051.html)       | 2.45     |
 | IC           | U3                    | USON-8                      | 1       | W25Q16JV         | [https://www.lcsc.com/product-detail/C2456208.html](https://www.lcsc.com/product-detail/C2456208.html)   | 1.31     |
 | Crystal      | Y1                    | 3225                        | 1       | 12 MHz           | [https://www.lcsc.com/product-detail/C9002.html](https://www.lcsc.com/product-detail/C9002.html)         | 0.73     |
-| Service      | PCB                   | JLCPCB fabrication          | 1       | Manufacturing    | link                                                                                                     | 2.10     |
-| Tool         | Tip                   | T18-D24 solder tip          | 1       | Hakko chisel     | Micro Center                                                                                             | 6.99     |
-| Tool         | Wick                  | Desolder wick               | 1       | iFixit wick      | Micro Center                                                                                             | 4.99     |
-| Tool         | Flux                  | No-clean flux               | 1       | syringe          | Micro Center                                                                                             | 0.00     |
-| Tool         | Tweezers              | Curved ESD                  | 1       | precision        | Micro Center                                                                                             | 2.99     |
-| Tool         | Helping Hand          | Magnifier stand             | 1       | third hand       | Micro Center                                                                                             | 4.99     |
+| Service      | PCB                   | JLCPCB fabrication          | 1       | Manufacturing    | [https://cart.jlcpcb.com/quote/gerberviewThree/?qs=d00311a2c2824fc7aa7ee1bc072ff726_1_0_1_0_0.html]                                                                                                     | 2.10     |
+| Tool         | Tip                   | T18-D24 solder tip          | 1       | Hakko chisel     | [https://www.microcenter.com/product/658966/hakko-t18-series-006-in-chisel-tip]                                                                                            | 6.99     |
+| Tool         | Wick                  | Desolder wick               | 1       | iFixit wick      |[https://www.microcenter.com/product/693022/ifixit-desoldering-wick]                                                                                            | 4.99     |
+| Tool         | Tweezers              | Curved ESD                  | 1       | precision        | [https://www.microcenter.com/product/361636/enkay-products-heat-resistant-soldering-tweezers-curved-point]                                                                                             | 2.99     |
+| Tool         | Helping Hand          | Magnifier stand             | 1       | third hand       |[https://www.microcenter.com/product/618902/inland-inland-adjustable-helping-hand-w-magnifying-glass]                                                                                             | 4.99     |
 Cost Summary
 Subtotal: $30.87
 Shipping: $15.24
