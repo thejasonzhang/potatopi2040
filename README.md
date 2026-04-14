@@ -23,7 +23,9 @@ Front & Board Renders as well as Potato Pi Illustrations
 </p> <p float="left"> <img src="https://github.com/user-attachments/assets/024346d4-5a19-431f-8776-90b8332c3d5f" width="300"/> <img src="https://github.com/user-attachments/assets/e092c213-ff30-4260-bfb4-da09e4d3f89b" width="300"/> <img src="https://github.com/user-attachments/assets/ac1637eb-51a1-498f-8126-9a3e58c35e30" width="300"/> <img src="https://github.com/user-attachments/assets/10679dad-0d70-415a-b012-5a2db32e9d90" width="300"/> </p>
 
 BOM (you can find this as a separate file too)
+
 | Designator                                    | Footprint        | Qty | Value / Part | Link                                                                                                     | Cost |
+| --------------------------------------------- | ---------------- | --- | ------------ | -------------------------------------------------------------------------------------------------------- | ---- |
 | C1, C12                                       | 402              | 2   | 1µF          | [https://www.lcsc.com/product-detail/C29266.html](https://www.lcsc.com/product-detail/C29266.html)       | 0.26 |
 | C10, C11, C17, C2, C3, C4, C5, C6, C7, C8, C9 | 402              | 11  | 0.1µF        | [https://www.lcsc.com/product-detail/C1525.html](https://www.lcsc.com/product-detail/C1525.html)         | 0.13 |
 | C13, C14                                      | 603              | 2   | 10µF         | [https://www.lcsc.com/product-detail/C19702.html](https://www.lcsc.com/product-detail/C19702.html)       | 0.40 |
@@ -40,6 +42,7 @@ BOM (you can find this as a separate file too)
 | U2                                            | SOT-23           | 1   | MCP1700-3302 | [https://www.lcsc.com/product-detail/C39051.html](https://www.lcsc.com/product-detail/C39051.html)       | 2.45 |
 | U3                                            | USON-8           | 1   | W25Q16JV     | [https://www.lcsc.com/product-detail/C2456208.html](https://www.lcsc.com/product-detail/C2456208.html)   | 1.31 |
 | Y1                                            | Crystal 3225     | 1   | 12 MHz       | [https://www.lcsc.com/product-detail/C9002.html](https://www.lcsc.com/product-detail/C9002.html)         | 0.73 |
+(https://www.lcsc.com/product-detail/C9002.html)         | 0.73 |
 Tools 
 | Item                   | Cost |
 | JLCPCB PCB Fabrication | 2.10 |
