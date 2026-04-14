@@ -1,54 +1,54 @@
 PotatoPi
-<br>
-PotatoPi is an custom RP2040-based devboard that can be used for lots of cool hardware and software projects. It follows the same pinout as the Raspberry Pi Pico and is fully feature-compatible.
+Overview
+
+PotatoPi is a custom RP2040-based devboard that can be used for lots of cool hardware and software projects.
+It follows the same pinout as the Raspberry Pi Pico and is fully feature-compatible.
+
 It will also include headers soldered on.
 
-It includes:
+- Features
+- 16MB onboard flash memory
+- Convenient reset button for easy flashing
+- Custom PotatoPi artwork on both sides of the PCB
+- All components hand soldered (no PCBA)
 
-16MB of onboard flash memory
-A convenient reset button for easy flashing
-Custom PotatoPi artwork on both sides of the PCB
-
-All components will be hand soldered (no PCBA).
-
-I made this to get back into hardware and to redeem myself from my last project. 
+I made this to get back into hardware and to redeem myself from my last project.
 I also wanted to try out SMD soldering.
 
 Gallery
-Front & Board Renders as well as Potato Pi Illustrations
-<p float="left"> 
-<img width="356" height="651" alt="Screenshot 2026-04-14 102804" src="https://github.com/user-attachments/assets/7c3f891a-bb0d-4e7e-83cc-8c3f2b0e18fb" />
-<img src="https://github.com/user-attachments/assets/2c9f7826-c926-43a8-a755-8cab63f8067b" />
-<img src="https://github.com/user-attachments/assets/0d66416b-50a1-4beb-a662-bbd869390431" />
-</p> <p float="left"> <img src="https://github.com/user-attachments/assets/024346d4-5a19-431f-8776-90b8332c3d5f" width="300"/> <img src="https://github.com/user-attachments/assets/e092c213-ff30-4260-bfb4-da09e4d3f89b" width="300"/> <img src="https://github.com/user-attachments/assets/ac1637eb-51a1-498f-8126-9a3e58c35e30" width="300"/> <img src="https://github.com/user-attachments/assets/10679dad-0d70-415a-b012-5a2db32e9d90" width="300"/> </p>
 
-BOM (you can find this as a separate file too)
-| Type      | Designator / Item                             | Footprint / Description | Qty | Value / Part                 | Link                                                                                                                                                                                                   | Cost      |
-| --------- | --------------------------------------------- | ----------------------- | --- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------- |
-| Component | C1, C12                                       | 402                     | 2   | 1µF                          | [https://www.lcsc.com/product-detail/C29266.html](https://www.lcsc.com/product-detail/C29266.html)                                                                                                     | 0.26      |
-| Component | C10, C11, C17, C2, C3, C4, C5, C6, C7, C8, C9 | 402                     | 11  | 0.1µF                        | [https://www.lcsc.com/product-detail/C1525.html](https://www.lcsc.com/product-detail/C1525.html)                                                                                                       | 0.13      |
-| Component | C13, C14                                      | 603                     | 2   | 10µF                         | [https://www.lcsc.com/product-detail/C19702.html](https://www.lcsc.com/product-detail/C19702.html)                                                                                                     | 0.40      |
-| Component | C15, C16                                      | 603                     | 2   | 33pF                         | [https://www.lcsc.com/product-detail/C107047.html](https://www.lcsc.com/product-detail/C107047.html)                                                                                                   | 0.30      |
-| Component | J1                                            | USB-C Receptacle        | 1   | USB 2.0 14P                  | [https://www.lcsc.com/product-detail/C165948.html](https://www.lcsc.com/product-detail/C165948.html)                                                                                                   | 0.85      |
-| Component | J2, J3                                        | Pin Header 1x20         | 2   | Conn_01x20                   | [https://www.lcsc.com/product-detail/C42431804.html](https://www.lcsc.com/product-detail/C42431804.html)                                                                                               | 0.46      |
-| Component | J4                                            | Pin Header 1x03         | 1   | Conn_01x03                   | [https://www.lcsc.com/product-detail/C32713269.html](https://www.lcsc.com/product-detail/C32713269.html)                                                                                               | 0.11      |
-| Component | R1, R2                                        | 402                     | 2   | 5.1kΩ                        | [https://www.lcsc.com/product-detail/C25905.html](https://www.lcsc.com/product-detail/C25905.html)                                                                                                     | 0.08      |
-| Component | R3, R4                                        | 402                     | 2   | 27Ω                          | [https://www.lcsc.com/product-detail/C25100.html](https://www.lcsc.com/product-detail/C25100.html)                                                                                                     | 0.08      |
-| Component | R5, R6                                        | 402                     | 2   | 1kΩ                          | [https://www.lcsc.com/product-detail/C11702.html](https://www.lcsc.com/product-detail/C11702.html)                                                                                                     | 0.07      |
-| Component | R7                                            | 402                     | 1   | 10kΩ                         | [https://www.lcsc.com/product-detail/C60490.html](https://www.lcsc.com/product-detail/C60490.html)                                                                                                     | 0.08      |
-| Component | SW1                                           | Switch                  | 1   | Push Button                  | [https://www.lcsc.com/product-detail/C720477.html](https://www.lcsc.com/product-detail/C720477.html)                                                                                                   | 0.55      |
-| IC        | U1                                            | QFN-56                  | 1   | RP2040                       | [https://www.lcsc.com/product-detail/C2040.html](https://www.lcsc.com/product-detail/C2040.html)                                                                                                       | 0.95      |
-| IC        | U2                                            | SOT-23                  | 1   | MCP1700-3302                 | [https://www.lcsc.com/product-detail/C39051.html](https://www.lcsc.com/product-detail/C39051.html)                                                                                                     | 2.45      |
-| IC        | U3                                            | USON-8                  | 1   | W25Q16JV                     | [https://www.lcsc.com/product-detail/C2456208.html](https://www.lcsc.com/product-detail/C2456208.html)                                                                                                 | 1.31      |
-| Component | Y1                                            | Crystal 3225            | 1   | 12 MHz                       | [https://www.lcsc.com/product-detail/C9002.html](https://www.lcsc.com/product-detail/C9002.html)                                                                                                       | 0.73      |
-| Service   | PCB                                           | JLCPCB fabrication      | —   | —                            | [https://cart.jlcpcb.com/quote/gerberviewThree/?qs=a23e7f3868a44292b2bc773764c7d804_1_0_4_0_0.html](https://cart.jlcpcb.com/quote/gerberviewThree/?qs=a23e7f3868a44292b2bc773764c7d804_1_0_4_0_0.html) | 2.10      |
-| Tool      | Tip                                           | T18-D24 solder tip      | —   | Hakko micro chisel           | Micro Center                                                                                                                                                                                           | 6.99      |
-| Tool      | Wick                                          | Desoldering wick        | —   | iFixit wick                  | Micro Center                                                                                                                                                                                           | 4.99      |
-| Tool      | Flux                                          | No-clean flux           | —   | syringe                      | Micro Center                                                                                                                                                                                           | 0.00      |
-| Tool      | Tweezers                                      | Curved tweezers         | —   | ESD-safe                     | Micro Center                                                                                                                                                                                           | 2.99      |
-| Tool      | Helping Hand                                  | Magnifier stand         | —   | third hand tool              | Micro Center                                                                                                                                                                                           | 4.99      |
-| —         |                                               |                         |     | **Subtotal**                 |                                                                                                                                                                                                        | **30.87** |
-| —         |                                               |                         |     | **Shipping (LCSC + JLCPCB)** |                                                                                                                                                                                                        | **15.24** |
-| —         |                                               |                         |     | **Tax**                      |                                                                                                                                                                                                        | **3.82**  |
-| —         |                                               |                         |     | **TOTAL**                    |                                                                                                                                                                                                        | **49.93** |
+Front & board renders as well as Potato Pi illustrations:
 
+<p float="left"> <img width="356" height="651" alt="Screenshot 2026-04-14 102804" src="https://github.com/user-attachments/assets/7c3f891a-bb0d-4e7e-83cc-8c3f2b0e18fb" /> <img src="https://github.com/user-attachments/assets/2c9f7826-c926-43a8-a755-8cab63f8067b" /> <img src="https://github.com/user-attachments/assets/0d66416b-50a1-4beb-a662-bbd869390431" /> </p> <p float="left"> <img src="https://github.com/user-attachments/assets/024346d4-5a19-431f-8776-90b8332c3d5f" width="300"/> <img src="https://github.com/user-attachments/assets/e092c213-ff30-4260-bfb4-da09e4d3f89b" width="300"/> <img src="https://github.com/user-attachments/assets/ac1637eb-51a1-498f-8126-9a3e58c35e30" width="300"/> <img src="https://github.com/user-attachments/assets/10679dad-0d70-415a-b012-5a2db32e9d90" width="300"/> </p>
+
+Bill of Materials (BOM)
+
+| **Category** | **Designator / Item** | **Footprint / Description** | **Qty** | **Value / Part** | **Link**                                                                                                 | **Cost** |
+| ------------ | --------------------- | --------------------------- | ------- | ---------------- | -------------------------------------------------------------------------------------------------------- | -------- |
+| Capacitor    | C1, C12               | 402                         | 2       | 1µF              | [https://www.lcsc.com/product-detail/C29266.html](https://www.lcsc.com/product-detail/C29266.html)       | 0.26     |
+| Capacitor    | C10–C11, C17, C2–C9   | 402                         | 11      | 0.1µF            | [https://www.lcsc.com/product-detail/C1525.html](https://www.lcsc.com/product-detail/C1525.html)         | 0.13     |
+| Capacitor    | C13, C14              | 603                         | 2       | 10µF             | [https://www.lcsc.com/product-detail/C19702.html](https://www.lcsc.com/product-detail/C19702.html)       | 0.40     |
+| Capacitor    | C15, C16              | 603                         | 2       | 33pF             | [https://www.lcsc.com/product-detail/C107047.html](https://www.lcsc.com/product-detail/C107047.html)     | 0.30     |
+| Connector    | J1                    | USB-C Receptacle            | 1       | USB 2.0 14P      | [https://www.lcsc.com/product-detail/C165948.html](https://www.lcsc.com/product-detail/C165948.html)     | 0.85     |
+| Connector    | J2, J3                | Pin Header 1x20             | 2       | Conn_01x20       | [https://www.lcsc.com/product-detail/C42431804.html](https://www.lcsc.com/product-detail/C42431804.html) | 0.46     |
+| Connector    | J4                    | Pin Header 1x03             | 1       | Conn_01x03       | [https://www.lcsc.com/product-detail/C32713269.html](https://www.lcsc.com/product-detail/C32713269.html) | 0.11     |
+| Resistor     | R1, R2                | 402                         | 2       | 5.1kΩ            | [https://www.lcsc.com/product-detail/C25905.html](https://www.lcsc.com/product-detail/C25905.html)       | 0.08     |
+| Resistor     | R3, R4                | 402                         | 2       | 27Ω              | [https://www.lcsc.com/product-detail/C25100.html](https://www.lcsc.com/product-detail/C25100.html)       | 0.08     |
+| Resistor     | R5, R6                | 402                         | 2       | 1kΩ              | [https://www.lcsc.com/product-detail/C11702.html](https://www.lcsc.com/product-detail/C11702.html)       | 0.07     |
+| Resistor     | R7                    | 402                         | 1       | 10kΩ             | [https://www.lcsc.com/product-detail/C60490.html](https://www.lcsc.com/product-detail/C60490.html)       | 0.08     |
+| Switch       | SW1                   | Push Button                 | 1       | Momentary        | [https://www.lcsc.com/product-detail/C720477.html](https://www.lcsc.com/product-detail/C720477.html)     | 0.55     |
+| IC           | U1                    | QFN-56                      | 1       | RP2040           | [https://www.lcsc.com/product-detail/C2040.html](https://www.lcsc.com/product-detail/C2040.html)         | 0.95     |
+| IC           | U2                    | SOT-23                      | 1       | MCP1700-3302     | [https://www.lcsc.com/product-detail/C39051.html](https://www.lcsc.com/product-detail/C39051.html)       | 2.45     |
+| IC           | U3                    | USON-8                      | 1       | W25Q16JV         | [https://www.lcsc.com/product-detail/C2456208.html](https://www.lcsc.com/product-detail/C2456208.html)   | 1.31     |
+| Crystal      | Y1                    | 3225                        | 1       | 12 MHz           | [https://www.lcsc.com/product-detail/C9002.html](https://www.lcsc.com/product-detail/C9002.html)         | 0.73     |
+| Service      | PCB                   | JLCPCB fabrication          | 1       | Manufacturing    | link                                                                                                     | 2.10     |
+| Tool         | Tip                   | T18-D24 solder tip          | 1       | Hakko chisel     | Micro Center                                                                                             | 6.99     |
+| Tool         | Wick                  | Desolder wick               | 1       | iFixit wick      | Micro Center                                                                                             | 4.99     |
+| Tool         | Flux                  | No-clean flux               | 1       | syringe          | Micro Center                                                                                             | 0.00     |
+| Tool         | Tweezers              | Curved ESD                  | 1       | precision        | Micro Center                                                                                             | 2.99     |
+| Tool         | Helping Hand          | Magnifier stand             | 1       | third hand       | Micro Center                                                                                             | 4.99     |
+Cost Summary
+Subtotal: $30.87
+Shipping: $15.24
+Tax: $3.82
+TOTAL: $49.93
