@@ -1,4 +1,5 @@
 PotatoPi
+<br>
 PotatoPi is an custom RP2040-based devboard that can be used for lots of cool hardware and software projects. It follows the same pinout as the Raspberry Pi Pico and is fully feature-compatible.
 It will also include headers soldered on.
 
