@@ -14,6 +14,7 @@ It will also include headers soldered on.
 
 I made this to get back into hardware and to redeem myself from my last project.
 I also wanted to try out SMD soldering.
+The board will use a hot plate to do most of the reflow work and then an iron to fix any mistakes and add the ehaders.
 
 Gallery
 
